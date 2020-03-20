@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/crop">
+
+    <Button
+        android:id="@+id/alone"
+        android:layout_width="178dp"
+        android:layout_height="112dp"
+        android:text="ALONE"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentRight="true"
+        android:onClick="alone"/>
+    <Button
+        android:id="@+id/faded"
+        android:layout_width="178dp"
+        android:layout_height="112dp"
+        android:text="FADED"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="faded"/>
+    <Button
+        android:id="@+id/onMyWay"
+        android:layout_width="178dp"
+        android:layout_height="112dp"
+        android:text="On My Way"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onMyWay"/>
+    <Button
+        android:id="@+id/ignite"
+        android:layout_width="178dp"
+        android:layout_height="112dp"
+        android:text="Ignite"
+        android:layout_marginTop="50dp"
+        android:onClick="ignite"/>
+</RelativeLayout>
